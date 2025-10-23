@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+    <main>
+        <h1>Dating profile</h1>
+        <form action="" class="form">
+            <div class="">
+                <label>Full Name</label>
+                <input type="text">
+            </div>
+
+            <div class="">
+                <label>Nickname</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Birthday</label>
+                <div>
+                    <input type="number" max="31"
+                    min="1" placeholder="Day">
+                    <input type="number" max="12"
+                    min="1" placeholder="Month">
+                    <input type="number" max="2025"
+                    min="1900" placeholder="Year">
+                </div>  
+
+            </div>
+            <div class="gender">
+                <label for="">Gender:</label>
+                    <div class="radio-row">
+                        <input type="radio" name="" id="">
+                        <label for="">Female</label>
+                        <input type="radio" name="" id="">
+                        <label for="">Male</label>
+                    </div>
+            </div>
+
+            <div class="interestin">
+                <label for="">Interest in: </label>
+                <div class="checkbox-row">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Man</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Woman</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="">Intrests</label>
+                <select name="" id="">
+                    <option value="">Football</option>
+                    <option value="">Basketball</option>
+                    <option value="">Gym</option>
+                    <option value="">Food</option>
+                    <option value="">Smoking</option>
+                    <option value="">Drinking</option>
+                    <option value="">Partying</option>
+                    <option value="">Hanging out</option>
+                    <option value="">Movie</option>
+                    <option value="">Pets</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="">Max distance</label>
+               <select name="" id="">
+                    <option value="">5km</option>
+                    <option value="">10km</option>
+                    <option value="">15km</option>
+                    <option value="">20km</option>
+
+                </select> 
+            </div>
+
+            <div>
+                <label for="">Age difference</label>
+                <select name="" id="">
+                    <option value="">1 year</option>
+                    <option value="">2 year</option>
+                    <option value="">3 year</option>
+                    <option value="">4 year</option>
+                    <option value="">5 year</option>
+                    <option value="">6 year</option>
+                </select>
+            </div>
+            <div class="aboutme">
+                <label for="">About me</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div>
+                <label for="">Email:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">Password:</label>
+                <input type="password" name="pw" id="pw" pattern="(?=.*\d)(?=.*[a-z])?=.*[A-Z].{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            </div>
+
+
+
+        </form>
+    </main>
+</body>
+</html>
